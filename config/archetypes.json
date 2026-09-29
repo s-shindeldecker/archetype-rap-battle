@@ -1,0 +1,71 @@
+{
+  "_readme": "Opponent roster. Add, remove, or rename entries here; no code changes needed. See README 'Archetype roster'. Generic archetypes only, never a specific named or licensed character.",
+  "archetypes": [
+    {
+      "id": "cowboy",
+      "label": "Cowboy",
+      "targetingValue": "cowboy",
+      "variationKey": "cowboy",
+      "persona": {
+        "ref": "persona.cowboy",
+        "prompt": "TODO(persona): write the Cowboy persona prompt. It's passed to archetype-rapper-config as {{persona}}."
+      },
+      "seed": { "archetypeWinRate": 0.46, "tieRate": 0.08 }
+    },
+    {
+      "id": "astronaut",
+      "label": "Astronaut",
+      "targetingValue": "astronaut",
+      "variationKey": "astronaut",
+      "persona": {
+        "ref": "persona.astronaut",
+        "prompt": "TODO(persona): write the Astronaut persona prompt. It's passed to archetype-rapper-config as {{persona}}."
+      },
+      "seed": { "archetypeWinRate": 0.41, "tieRate": 0.07 }
+    },
+    {
+      "id": "superhero",
+      "label": "Superhero",
+      "targetingValue": "superhero",
+      "variationKey": "superhero",
+      "persona": {
+        "ref": "persona.superhero",
+        "prompt": "TODO(persona): write the Superhero persona prompt. It's passed to archetype-rapper-config as {{persona}}."
+      },
+      "seed": { "archetypeWinRate": 0.52, "tieRate": 0.06 }
+    },
+    {
+      "id": "wizard",
+      "label": "Wizard",
+      "targetingValue": "wizard",
+      "variationKey": "wizard",
+      "persona": {
+        "ref": "persona.wizard",
+        "prompt": "TODO(persona): write the Wizard persona prompt. It's passed to archetype-rapper-config as {{persona}}."
+      },
+      "seed": { "archetypeWinRate": 0.58, "tieRate": 0.05 }
+    },
+    {
+      "id": "detective",
+      "label": "Detective",
+      "targetingValue": "detective",
+      "variationKey": "detective",
+      "persona": {
+        "ref": "persona.detective",
+        "prompt": "TODO(persona): write the Detective persona prompt. It's passed to archetype-rapper-config as {{persona}}."
+      },
+      "seed": { "archetypeWinRate": 0.44, "tieRate": 0.09 }
+    },
+    {
+      "id": "pirate",
+      "label": "Pirate",
+      "targetingValue": "pirate",
+      "variationKey": "pirate",
+      "persona": {
+        "ref": "persona.pirate",
+        "prompt": "TODO(persona): write the Pirate persona prompt. It's passed to archetype-rapper-config as {{persona}}."
+      },
+      "seed": { "archetypeWinRate": 0.49, "tieRate": 0.07 }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_readme": "Judge rubric inputs, passed to battle-judge-config as template variables. See README 'battle-judge-config'.",
+  "criteria": [
+    {
+      "id": "wordplay",
+      "label": "Wordplay",
+      "max": 10
+    },
+    {
+      "id": "relevance",
+      "label": "Relevance to the topic",
+      "max": 10
+    },
+    {
+      "id": "humor",
+      "label": "Humor",
+      "max": 10
+    }
+  ],
+  "rubric": "TODO(rubric): write the judge rubric. It's passed to battle-judge-config as {{rubric}}. The app adds the JSON output contract to the user message itself, so don't restate it here."
+}
